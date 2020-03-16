@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    ".CodeMirror": [
+      {
+        "label": "Toggle example-inkdrop-hint",
+        "command": "example-inkdrop-hint:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Plugins",
+      "submenu": [
+        {
+          "label": "example-inkdrop-hint",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "example-inkdrop-hint:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
